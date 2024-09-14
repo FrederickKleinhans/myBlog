@@ -15,20 +15,20 @@ body {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: blue;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 70%;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 30%;
   padding-left: 20px;
 }
 
@@ -44,6 +44,17 @@ body {
    background-color: white;
    padding: 20px;
    margin-top: 20px;
+   text-align: center;
+}
+
+
+/*style the button*/
+.card .btn {
+  width: 70%;
+  height: 50px;
+  font: 18px;
+  padding: 10px;
+  background-color: red;
 }
 
 /* Clear floats after the columns */
